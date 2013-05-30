@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8" />
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+          <script type="text/javascript" src="/javascripts/AjaxHelper.js"></script>
+          <script type="text/javascript" src="/javascripts/script.js"></script>
+          <script type="text/javascript" src="/javascripts/AutobayView.js"></script>
+          <script type="text/javascript" src="/javascripts/AutobayController.js"></script>
+          <script type="text/javascript" src="/javascripts/AdminController.js"></script>
+          <script type="text/javascript" src="/javascripts/ZoomedView.js"></script>
+          <script type="text/javascript" src="/javascripts/AdminView.js"></script>
+  </head>
+  <body>
+      <div id="container">
+          <header>
+            <h1><%= title %></h1>
+            <p>Welcome to <%= title %> for second cars</p>
+            <div id="login">
+                <form method="post" id="loginForm">
+                    <input type="text" placeholder="Gebruikersnaam" name="username" required>
+                    <input type="password" placeholder="Wachtwoord" name="password" required>
+                    <button>Log in</button>
+                </form>
+            </div>
+
+          </header>
+          <div id="sub-container"></div>
+      </div>
+  </body>
+</html>

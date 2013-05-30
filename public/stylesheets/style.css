@@ -1,0 +1,147 @@
+#container {
+    width: 100%;
+    min-width: 50%;
+    height: 100%;
+    padding: 30px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+header h1 {
+    font-size: 40px;
+    font-style: italic;
+    color: #330033;
+}
+
+#login {
+    border: 1px solid #330033;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+#sub-container {
+    width: 100%;
+}
+
+table#CarTable{
+    margin-top: 100px;
+    width: 80%;
+    border: 1px solid #330033;
+    border-spacing: 0px;
+    vertical-align: middle;
+    box-shadow: 10px 10px 5px #330033;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table#CarTable td{
+    border-bottom-style: solid;
+    border-bottom-color:#330033;
+    border-bottom-width:2px;
+    width: 200px;
+    text-align: center;
+}
+
+table#CarTable th{
+    background-color: #330033;
+    color: #ffffff;
+
+    font-style: oblique;
+}
+
+img {
+    max-width: 70%;
+    max-height: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay
+{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #330033;
+    opacity:.80;
+}
+
+.popup{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    position: fixed;
+    padding: 30px;
+    width:100%;
+    height:100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    display:block;
+}
+.formInDiv{
+    background-color: #330033;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.editView{
+    width: 80%;
+    border: 1px solid #330033;
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+table#CarTable tbody> tr:hover {
+    background-color: #330033;
+    color: #ffffff;
+}
+
+#bid, #detail {
+    width: 40%;
+    border: 1px solid #330033;
+    float: left;
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+table#detailTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.edit {width:20px;}
+td.edit:hover {
+    background: #ffeeff !important;
+}
+td.sold {width:20px;}
+td.sold:hover {
+    background: #ff4b4b !important;
+}
+td.delete {width:30px;}
+td.delete:hover {
+    background: red !important;
+}
+th.add{}
+th.add:hover{
+    background: #ffeeff !important;
+}
+
+.exit{
+    float: left;
+}
